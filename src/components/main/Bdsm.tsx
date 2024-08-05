@@ -4,7 +4,7 @@ import bdsm_braslet_sm_png from "c:/Users/Я/Desktop/panda-frontend-dev/public/i
 
 export default function Bdsm() {
   return (
-    <div>
+    <div className="select-none">
       <Image
         src={bdsm_braslet_sm_png}
         alt="bdsm_braslet_sm_png"

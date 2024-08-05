@@ -17,7 +17,7 @@ export default function ThisIsOur() {
         alt="this_is_our"
         width={290}
         height={30}
-        className="sm:hidden md:block md:w-[723px] md:h-[131px] lg:w-[723px] lg:h-[131px] xl:w-[1048px] xl:h-[191px]"
+        className="sm:hidden md:block md:w-180 md:h-34 xl:w-262 xl:h-47.5"
       />
       <Image
         src={`./img/main/this_is_our_sm.svg`}

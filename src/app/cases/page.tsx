@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import Header from "@/components/Header";
 import Cards from "@/components/cases/Cards";
-import Mobapp from "@/components/cases/Mobapp";
+import GoldBtn from '@/components/GoldBtn';
 
 export default function Cases() {
   return (
@@ -14,19 +14,19 @@ export default function Cases() {
             CASES
           </h1>
           <div className="sm:grid sm:grid-cols-2 md:flex md:flex-wrap mt-4 md:mt-5 lg:mt-6 xl:mt-9 mr-1.5 ml-1.5">
-            <Mobapp name_app="Mobile app" className="" />
-            <Mobapp name_app="Mobile app" className="" />
-            <Mobapp name_app="Mobile app" className="" />
-            <Mobapp name_app="Mobile app" className="" />
-            <Mobapp name_app="Mobile app" className="" />
-            <Mobapp name_app="Mobile app" className="" />
+            <GoldBtn name_app="Mobile app" />
+            <GoldBtn name_app="Mobile app" />
+            <GoldBtn name_app="Mobile app" />
+            <GoldBtn name_app="Mobile app" />
+            <GoldBtn name_app="Mobile app" />
+            <GoldBtn name_app="Mobile app" />
           </div>
           <div
             className="grid md:grid-cols-2 gap-y-9 md:gap-y-13 lg:gap-y-15
             mt-9 md:mt-10 lg:mt-9 xl:mt-15 mb-21 "
           >
             <Cards
-              name_btn="Mobile appMobile appMobile appMobile appMobile ggdzgfgdsafdqfsdfsfdhhdgg"
+              name_btn="Mobile appMobile appMobile appMobile appMobile "
               name="konfetki-baranochki"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu congue metus. Donec quis dui magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris vulputate vehicula dolor, id tristique orci interdum eu."
             />

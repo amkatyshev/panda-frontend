@@ -20,15 +20,19 @@ export default function Team() {
           <div className="relative">
             <h1
               className=" font-archivo font-black leading-14 
-              text-5xxll md:text-16 xl:text-8xxl  
+              text-5xxll md:text-5xxxl xl:text-8xxl  
               "
             >
               Animal friendly
             </h1>
-            <Image src={panda} alt="panda" className='absolute -top-3 left-19.5 
-                sm:size-[67px]
-                md:left-[78px] md:size-22 md:-top-6
-                xl:left-[170px] xl:size-39 xl:-top-15 '/>
+            <Image
+              src={panda}
+              alt="panda"
+              className="absolute -top-3 left-19.5 select-none
+                sm:size-17
+                md:left-19.5 md:size-22 md:-top-6
+                xl:left-42.5 xl:size-39 xl:-top-15 "
+            />
           </div>
           <div className="mt-5 xl:mt-10">
             <a className="mt-5 leading-6 font-inter text-base">
@@ -63,9 +67,8 @@ export default function Team() {
                 привлекательным и живым для визуально-слухового восприятия.
               </a>
 
-              <div className="md:grid justify-items-end">
+              <div className="md:grid justify-items-end select-none">
                 <SeeAll />
-                
               </div>
             </div>
           </div>

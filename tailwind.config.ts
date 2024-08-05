@@ -46,6 +46,10 @@ const config: Config = {
         "5xxll": "3.5rem" /*56px*/,
         "5xxxl": "4rem" /*64px*/,
         "8xxl": "7.5rem" /*120px*/,
+        "35xl": "8.75rem" /*140px*/,
+        "38xl": "9.5rem" /*152px*/,
+        "58xl": "14.5rem" /*232px*/,
+        "73xl": "18.25rem" /*292px*/,
       },
 
       spacing: {
@@ -80,28 +84,37 @@ const config: Config = {
         "38.25": "9.5625rem" /*153px*/,
         "39": "9.75rem" /*156px*/,
         "41": "10.25rem" /*164px*/,
-        "43.75": "10.9375rem" /*17px*/,
+        "42.5": "10.625rem" /*170px*/,
+        "43.75": "10.9375rem" /*175px*/,
         "45.25": "11.3125rem" /*181px*/,
         "47.5": "11.875rem" /*190px*/,
         "50": "12.5rem" /*200px*/,
         "55": "13.75rem" /*220px*/,
         "59": "14.75rem" /*236px*/,
         "64": "16rem" /*256px*/,
+        "66": "16.5rem" /*264px*/,
         "67": "16.75rem" /*268px*/,
+        "70": "17.5rem" /*280px*/,
         "71": "17.75rem" /*284px*/,
+        "73.5": "18.375rem" /*294px*/,
         "75": "18.75rem" /*300px*/,
         "76": "19rem" /*304px*/,
+        "77": "19.25rem" /*308px*/,
         "79": "19.75rem" /*316px*/,
+        "82": "20.5rem" /*328px*/,
         "83": "20.75rem" /*332px*/,
         "88.5": "22.125rem" /*354px*/,
         "91.25": "22.8125rem" /*365px*/,
         "98": "24.5rem" /*392px*/,
+        "104": "26rem" /*416px*/,
         "107.5": "26.875rem" /*430px*/,
+        "109": "27.25rem" /*438px*/,
         "112": "28rem" /*448px*/,
         "118": "29.5rem" /*472px*/,
         "124": "31rem" /*496px*/,
         "135": "33.75rem" /*540px*/,
         "149": "37.25rem" /*596px*/,
+        "158": "39.5rem" /*632px*/,
         "162": "40.5rem" /*648px*/,
         "170": "42.5rem" /*686px*/,
         "172.5": "43.125rem" /*690px*/,
@@ -109,14 +122,28 @@ const config: Config = {
         "177": "44.25rem" /*708px*/,
         "180": "45rem" /*720px*/,
         "188": "47rem" /*750px*/,
+        "194": "48.5rem" /*776px*/,
         "196": "49rem" /*784px*/,
         "200": "50rem" /*800px*/,
+        "212": "53rem" /*848px*/,
         "250": "62.5rem" /*1000px*/,
         "254": "63.5rem" /*1016px*/,
+        "262": "65.5rem" /*1048px*/,
+        "276": "69rem" /*1103px*/,
         "290": "72.5rem" /*1160px*/,
         "332": "83rem" /*1328px*/,
         "380": "95rem" /*1520px*/,
+        "430": "107.5rem" /*1720px*/,
       },
+
+      rotate: {
+        "7": "7deg",
+        "8": "8deg",
+        "9": "9deg",
+        "10": "10deg",
+        "15": "15deg",
+      },
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -126,6 +153,8 @@ const config: Config = {
       animation: {
         marquee: "marquee 25s linear infinite",
         marquee2: "marquee2 24.9s linear infinite",
+        DigGr: "marquee 23s linear infinite",
+        DigGr2: "marquee2 23s linear infinite",
         rotation: "rotation 9s linear infinite",
         fill: "fill 1s linear infinite",
 
@@ -134,17 +163,17 @@ const config: Config = {
         progress_lg: "progress 2s linear",
         progress_xl: "progress 2s linear",
 
-        pers1_sm: "pers1_sm 2.2s linear",
-        pers2_sm: "pers2_sm 3.1s linear",
+        pers1_sm: "pers1_sm 1.9s linear",
+        pers2_sm: "pers2_sm 3.2s linear",
         pers3_sm: "pers3_sm 2s linear",
 
         pers1_md: "pers1_md 2.2s linear",
         pers2_md: "pers2_md 2s linear",
         pers3_md: "pers3_md 2.2s linear",
 
-        pers1_lg: "pers1_lg 2s linear",
-        pers2_lg: "pers2_lg 2s linear",
-        pers3_lg: "pers3_lg 3.3s linear",
+        pers1_lg: "pers1_lg 1.8s linear",
+        pers2_lg: "pers2_lg 1.8s linear",
+        pers3_lg: "pers3_lg 3.1s linear",
 
         pers1_xl: "pers1_xl 2.2s linear",
         pers2_xl: "pers2_xl 2s linear",
@@ -156,14 +185,17 @@ const config: Config = {
           "0%": { transform: "translateX(0%)" },
           "100%": { transform: "translateX(-100%)" },
         },
+
         marquee2: {
           "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(0%)" },
         },
+
         rotation: {
           "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(360deg)" },
         },
+
         fill: {
           "0%": { transform: "scale-0" },
           "100%": { transform: "scale-100" },
@@ -171,19 +203,19 @@ const config: Config = {
 
         pers1_sm: {
           "0%": {
-            transform: "translateX(20%) translateY(-100%) rotate(0deg)",
+            transform: "translateX(100%) translateY(0%) rotate(0deg)",
           },
           "100%": {
-            transform: "translateX(-150%) translateY(900%) rotate(-180deg) ",
+            transform: "translateX(-50%) translateY(700%) rotate(-170deg) ",
           },
         },
 
         pers2_sm: {
           "0%": {
-            transform: "translateX(-100%) translateY(-200%) rotate(0deg)",
+            transform: "translateX(-100%) translateY(-100%) rotate(0deg)",
           },
           "100%": {
-            transform: "translateX(100%) translateY(700%) rotate(180deg) ",
+            transform: "translateX(200%) translateY(700%) rotate(180deg) ",
           },
         },
 
@@ -201,7 +233,7 @@ const config: Config = {
             transform: "translateX(70%) translateY(10%) rotate(0deg)",
           },
           "100%": {
-            transform: "translateX(-100%) translateY(700%) rotate(-170deg) ",
+            transform: "translateX(-300%) translateY(700%) rotate(-170deg) ",
           },
         },
 
@@ -216,7 +248,7 @@ const config: Config = {
 
         pers3_md: {
           "0%": {
-            transform: "translateX(-50%) translateY(300%) rotate(-20deg)",
+            transform: "translateX(-150%) translateY(150%) rotate(-20deg)",
           },
           "100%": {
             transform: "translateX(250%) translateY(-400%)  rotate(-200deg)",
@@ -228,7 +260,7 @@ const config: Config = {
             transform: "translateX(70%) translateY(0%) rotate(0deg)",
           },
           "100%": {
-            transform: "translateX(-200%) translateY(400%) rotate(-120deg) ",
+            transform: "translateX(-200%) translateY(400%) rotate(-140deg) ",
           },
         },
 
@@ -237,7 +269,7 @@ const config: Config = {
             transform: "translateX(-20%) translateY(-120%) rotate(0deg)",
           },
           "100%": {
-            transform: "translateX(300%) translateY(200%) rotate(120deg) ",
+            transform: "translateX(300%) translateY(200%) rotate(140deg) ",
           },
         },
 
@@ -246,7 +278,7 @@ const config: Config = {
             transform: "translateX(-300%) translateY(200%) rotate(-20deg)",
           },
           "100%": {
-            transform: "translateX(700%) translateY(-400%)  rotate(-170deg)",
+            transform: "translateX(700%) translateY(-400%)  rotate(-210deg)",
           },
         },
 

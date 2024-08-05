@@ -15,9 +15,9 @@ import PurpleBtn from '@/components/PurpleBtn';
 export default function Main() {
   return (
     <>
-      <Header color={false}/>
-      <div className="flex justify-center mx-2.5 md:mx-6 lg:mx-22.5 xl:mx-50">
-        <div className="container mt-18 md:mt-50 lg:mt-18 xl:mt-17 relative ">
+      <Header color={false} />
+      <div className="flex justify-center mx-2.5 md:mx-6 lg:mx-22.5 xl:mx-50 select-none">
+        <div className="container mt-18 md:mt-50 lg:mt-18 xl:mt-17 relative">
           <div className="flex justify-end">
             <Image
               src={`./img/main/we_know.svg`}
@@ -28,11 +28,11 @@ export default function Main() {
             />
           </div>
 
-          <div className="absolute flex justify-between items-center sm:top-[20px] md:top-[55px] lg:top-[45px] xl:top-[80px]">
+          <div className="absolute flex justify-between items-center sm:top-5 md:top-14 lg:top-11.5 xl:top-19.5">
             <ChangeReality />
           </div>
 
-          <div className="flex xl:justify-start sm:justify-end items-center sm:mt-[35px] md:mt-[80px] lg:mt-[78px] xl:mt-[145px]">
+          <div className="flex xl:justify-start sm:justify-end items-center sm:mt-9 md:mt-19.5 lg:mt-19.5 xl:mt-36">
             <ThisIsOur />
           </div>
 
@@ -55,12 +55,11 @@ export default function Main() {
           </div>
         </div>
       </div>
-      
 
       <div className="flex justify-between items-end absolute bottom-0">
         <Bdsm />
       </div>
-      <button className="mr-[10px] mb-17 md:mr-6 md:mb-16 lg:mr-15 lg:mb-18.5 xl:mr-12 xl:mb-25 absolute bottom-0 right-0">
+      <button className="mr-2.5 mb-17 md:mr-6 md:mb-16 lg:mr-15 lg:mb-18.5 xl:mr-12 xl:mb-25 absolute bottom-0 right-0">
         <Scroll />
       </button>
       <div className="absolute bottom-0">

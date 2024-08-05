@@ -34,17 +34,17 @@ export default function Header({ color }: { color: boolean }) {
           alt="logo"
           width={112}
           height={28}
-          className="col-start-1 xl:w-48 xl:h-12 md:w-28 md:h-7 xl:w-48 xl:h-12"
+          className="col-start-1 xl:w-48 xl:h-12 md:w-28 md:h-7 xl:w-48 xl:h-12 select-none"
         />
         <button
-          className="group flex items-center justify-between border-[2px] rounded-full col-start-2 justify-self-end 
+          className="group flex items-center justify-between border-2 rounded-full col-start-2 justify-self-end 
           sm:w-40 sm:h-12 md:w-41 md:h-12 lg:w-41 lg:h-12 xl:w-50 xl:h-13"
         >
           <span className="font-normal lg:font-medium font-inter text-xl xl:text-2xl mb-1 ml-4 xl:ml-5">
             Связаться
           </span>
-
-          <div className="mr-1 xl:mr-2">
+    
+          <div className="mr-1 xl:mr-2 select-none">
             <ConnectColor color={color} />
           </div>
         </button>

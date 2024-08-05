@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Scroll() {
   return (
-    <div className="relative">
+    <div className="relative select-none">
       <Image
         src={`./img/main/Arrow_scroll.svg`}
         alt="arrow"

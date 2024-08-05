@@ -16,7 +16,7 @@ export default function Cards({ name_btn, name, description }: CardsProps) {
         <Image
           src={`./img/cases/confbar.svg`}
           alt="confbar"
-          className="relative group-hover:brightness-75"
+          className="relative group-hover:brightness-75 select-none"
           width={750}
           height={800}
         />
