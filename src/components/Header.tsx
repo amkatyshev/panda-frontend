@@ -43,7 +43,7 @@ export default function Header({ color }: { color: boolean }) {
           <span className="font-normal lg:font-medium font-inter text-xl xl:text-2xl mb-1 ml-4 xl:ml-5">
             Связаться
           </span>
-
+    
           <div className="mr-1 xl:mr-2 select-none">
             <ConnectColor color={color} />
           </div>
