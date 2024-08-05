@@ -39,6 +39,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable}${glory.variable} ${archivo.variable} bg-white `}
       >
+        {/*  */}
         {children}
       </body>
     </html>
