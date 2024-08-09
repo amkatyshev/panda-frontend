@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 import Bomb from "@/components/animal/Bomb";
 import SeeAll from '@/components/animal/SeeAll';
 
-import panda from "c:/Users/Я/Desktop/panda-frontend-dev/public/img/animal/panda.png";
 
 export default function Team() {
   return (
@@ -26,7 +25,7 @@ export default function Team() {
               Animal friendly
             </h1>
             <Image
-              src={panda}
+              src={"../../../public/img/animal/panda.png"}
               alt="panda"
               className="absolute -top-3 left-19.5 select-none
                 sm:size-17

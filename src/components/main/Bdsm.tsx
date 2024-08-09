@@ -1,12 +1,11 @@
 "use client";
 import Image from "next/image";
-import bdsm_braslet_sm_png from "c:/Users/Я/Desktop/panda-frontend-dev/public/img/main/bdsm_braslet_sm_png.png";
 
 export default function Bdsm() {
   return (
     <div className="select-none">
       <Image
-        src={bdsm_braslet_sm_png}
+        src={"../../../public/img/main/bdsm_braslet_sm_png.png"}
         alt="bdsm_braslet_sm_png"
         className="sm:block md:hidden size-auto"
       />

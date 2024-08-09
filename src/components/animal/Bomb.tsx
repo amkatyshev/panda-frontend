@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import dima from "c:/Users/Я/Desktop/panda-frontend-dev/public/img/animal/dima.png";
+
 
 export default function Bomb() {
   function blockSсroll() {
@@ -119,7 +119,7 @@ export default function Bomb() {
           }
         />
         <Image
-          src={dima}
+          src={"../../../public/img/animal/dima.png"}
           alt="dima"
           width={287}
           height={650}
